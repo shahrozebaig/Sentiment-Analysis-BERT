@@ -6,9 +6,7 @@ This project implements a sentiment analysis system that classifies text as **Po
 
 ## About the Project
 
-The goal of this project is to understand the sentiment expressed in text data such as reviews or user feedback. The project starts with traditional machine learning approaches to establish a baseline and then moves to an advanced transformer-based deep learning model for better performance.
-
-The final system allows a user to enter any text through a simple user interface, sends that text to a backend model, and returns the predicted sentiment.
+I built a sentiment analysis system using the IMDB movie reviews dataset to classify text as positive or negative. I first trained baseline machine learning models like Logistic Regression and Naive Bayes using TF-IDF features to establish a benchmark. After that, I fine-tuned a pretrained BERT transformer model using transfer learning, which captured contextual meaning in text more effectively and achieved better performance. The trained BERT model was saved and integrated into a Streamlit-based user interface, where user input is sent to the backend model and the predicted sentiment is returned in real time.
 
 ---
 
@@ -44,10 +42,13 @@ BERT is a transformer-based pretrained language model that understands contextua
 
 ## Final Output
 
-The final trained BERT model is integrated into a Streamlit-based user interface. When a user enters text, the backend model predicts the sentiment and returns the result as:
+<img width="1493" height="564" alt="Screenshot 2025-12-14 141147" src="https://github.com/user-attachments/assets/e6f50fb2-9f28-493a-ab6c-afdc19cf6ef2" />
 
-* **Positive**
-* **Negative**
+<img width="452" height="393" alt="download" src="https://github.com/user-attachments/assets/a3a59783-28c4-4e01-b5a3-c0fa3070a5a3" />
+
+<img width="613" height="374" alt="download (1)" src="https://github.com/user-attachments/assets/dffb40f1-8e87-4cd2-84e4-8e2cc5c48c8a" />
+
+<img width="846" height="451" alt="download (2)" src="https://github.com/user-attachments/assets/7e00edd8-265f-4e49-9994-0d057e18d977" />
 
 ---
 
